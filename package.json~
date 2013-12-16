@@ -1,8 +1,0 @@
-{
-  "name": "grunt_build",
-  "description": "Grunt Build.",
-  "author": "Suyash",
-  "dependencies": {
-     "grunt-angular-gettext": "0.2.1"
-   }
-}
