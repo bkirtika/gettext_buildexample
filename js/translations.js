@@ -1,0 +1,5 @@
+angular.module("gettext").run(['gettextCatalog', function (gettextCatalog) {
+    gettextCatalog.setStrings('bg', {"<strong>{{remainingCount}}</strong> item left":["<strong> {{}} remainingCount </ силен> елемента наляво",""],"Active":"Активен","All":"Всички","Clear completed ({{completedCount}})":"Изчистете завършена ({{}} completedCount)","Completed":"Завършен","Mark all as complete":"Отбележи всичко като пълен","What needs to be done?":"Какво трябва да се направи?"});
+    gettextCatalog.setStrings('it', {"<strong>{{remainingCount}}</strong> item left":["<strong> {{remainingCount}} </ strong> articolo sinistra",""],"Active":"Attivo","All":"Tutto","Clear completed ({{completedCount}})":"Cancellare completato ({{completedCount}})","Completed":"Completato","Mark all as complete":"Segna tutti come completo","What needs to be done?":"Cosa deve essere fatto?"});
+
+}]);

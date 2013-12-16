@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.html
+msgid "<strong>{{remainingCount}}</strong> item left"
+msgid_plural "<strong>{{remainingCount}}</strong> items left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.html
+msgid "Active"
+msgstr ""
+
+#: index.html
+msgid "All"
+msgstr ""
+
+#: index.html
+msgid "Clear completed ({{completedCount}})"
+msgstr ""
+
+#: index.html
+msgid "Completed"
+msgstr ""
+
+#: index.html
+msgid "Mark all as complete"
+msgstr ""
+
+#: index.html
+msgid "What needs to be done?"
+msgstr ""

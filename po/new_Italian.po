@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: new\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: index.html
+msgid "<strong>{{remainingCount}}</strong> item left"
+msgid_plural "<strong>{{remainingCount}}</strong> items left"
+msgstr[0] "<strong> {{remainingCount}} </ strong> articolo sinistra"
+msgstr[1] ""
+
+#: index.html
+msgid "Active"
+msgstr "Attivo"
+
+#: index.html
+msgid "All"
+msgstr "Tutto"
+
+#: index.html
+msgid "Clear completed ({{completedCount}})"
+msgstr "Cancellare completato ({{completedCount}})"
+
+#: index.html
+msgid "Completed"
+msgstr "Completato"
+
+#: index.html
+msgid "Mark all as complete"
+msgstr "Segna tutti come completo"
+
+#: index.html
+msgid "What needs to be done?"
+msgstr "Cosa deve essere fatto?"
+

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Gettext Example</title>
+  <script src="js/jquery/jquery-1.10.2.js"></script>
+  <script src="js/angular/angular.js"></script>
+  <script src="js/angular/angular-gettext.min.js"></script>
+  <script src="js/translations.js"></script>
+  
+  <script language="javascript">
+var phonecatApp = angular.module('myApp', [
+'gettext'
+]);
+
+phonecatApp.run(function (gettextCatalog) {
+gettextCatalog.currentLanguage = 'it';
+});
+
+  </script>
+</head>
+<body>
+<body>
+
+			
+		<section id="todoapp" >
+			<header id="header">
+				
+				
+					<input id="new-todo" placeholder="{{'What needs to be done?'|translate}}" ng-model="newTodo" autofocus>
+				
+			</header>
+			<section id="main">
+				
+				<label for="toggle-all" translate>Mark all as complete</label>
+				
+			</section>
+			<footer id="footer">
+				<span id="todo-count" translate translate-n="remainingCount" translate-plural="&lt;strong&gt;{{remainingCount}}&lt;/strong&gt; items left"><strong>{{remainingCount}}</strong> item left</span>
+				<ul id="filters">
+					<li>
+						<a ng-class="{selected: location.path() == '/'} " href="#/" translate>All</a>
+					</li>
+					<li>
+						<a ng-class="{selected: location.path() == '/active'}" href="#/active" translate>Active</a>
+					</li>
+					<li>
+						<a ng-class="{selected: location.path() == '/completed'}" href="#/completed" translate>Completed</a>
+					</li>
+				</ul>
+				<button id="clear-completed" ng-click="clearCompletedTodos()" ng-show="completedCount" translate>Clear completed ({{completedCount}})</button>
+			</footer>
+		</section>
+		
+</body>
+</html>
